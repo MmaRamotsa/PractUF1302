@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<!-- Página creada por : Maria Antonia Martínez García
+Fecha: 23/01/2017
+email: ma.martinez68@gmail.com
+Evaluación del módulo UF1302. Contiene los puntos solicitados en el examen -->
+<html lang="es">
+<!-- La parte de la cabecera incluida en la etiqueta <head> no se ve -->
+ <head>
+<!-- Incluimos la etiqueta meta charset para que en cualquier navegador se muestren correctamente los caracteres que utilizamos en la página -->
+	<meta charset="UTF-8">
+	<title>Prueba de evaluación UF1302</title>
+	<meta name="keywords" content="HTML,UF1302,CSS">
+	<meta name="author" content="MAMG">
+	<!-- La página ha sido editada con SublimeText 3 -->
+	<meta name="generator" content="SublimeText3">
+	<!-- Incluimos una hoja de estilos. La ponemos aparte para mejorar la accesibilidad de la página -->
+	<link rel="stylesheet" type="text/css" href="css/estilos.css">
+	<!-- Aquí está el fichero con extensión js donde voy a definir las funciones JavaScript -->
+	<script type="text/javascript" src="js/funciones.js"></script>
+</head>
+<!-- A partir de aquí, <body>,comienza el contenido de la página -->
+<body>
+	<!-- Dentro del body diferenciamos varias divisiones o capas para añadir contenido semántico y mejorar las búsquedas con Google. La primera de ellas es la cabecera.-->
+	<header id="cabecera">
+		<h1>Prueba de evaluación UF1302</h1>
+	</header>
+	<!-- Incluyo la sección NAV para definir un menú de navegación 
+	El menú visible mejora la usabilidad de la página, el usuario puede navegar con mayor facilidad.-->
+	<nav>
+		<ul>
+			<li><a href="#seccion1">Formato de texto</a></li>
+			<li><a href="#seccion2">Tecnologías</a></li>
+			<li><a href="#seccion3">Accesibilidad</a></li>
+			<li><a href="#seccion4">Inscritos</a></li>
+			<li><a href="#seccion5">Imágenes de cetáceos</a></li>
+			<li><a href="#seccion6">Turismo país vasco</a></li>
+			<li><a href="#seccion7">Multimedia</a></li>
+			<li><a href="#seccion8">Mapa de localización</a></li>
+			<li><a href="#seccion9">Manual de JavaScript</a></li>
+			<li><a href="#pie_pagina">Ir al pie de página</a></li>
+<!-- 	En la siguiente opción de menú tenemos un enlace a la página marcos.html que contiene un Frameset
+ -->		<li><a href="marcos.html">Página con marcos</a></li>
+		</ul>
+	</nav>
+	<!-- Separo los contenidos en secciones con un id cada una para que pueda referenciarlas desde el menú y desde el JavaScript -->
+	<section id="seccion1">
+		<!-- Es conveniente que cada sección tenga su título en una etiqueta h. Esto mejora tanto el posicionamiento SEO como la usabilidad ya que se facilita la diferenciación de las distintas secciones-->
+		<h2>Formato de texto en HTML</h2>
+		<!-- He generado varios párrafos con LoremIpsum -->
+		<p><b>Lorem ipsum</b> dolor sit amet, consectetur adipisicing elit. Vitae neque, magnam ipsam labore dicta commodi. Totam odio accusamus voluptates soluta ipsam quod <b>sapiente</b> esse ducimus quis neque, hic laborum corporis.</p>
+		<p>Repudiandae fugiat distinctio ea, non, voluptates commodi quas soluta vitae deserunt quaerat, tempora, repellendus <i>accusamus aliquid!</i> Corrupti repellendus ut, error possimus, odit laborum deleniti assumenda voluptatem laboriosam soluta doloremque inventore!</p>
+		<p>La fórmula del <i>dióxido de Carbono</i> es CO<sub>2</sub>.
+		<p>Según Einstein, la energía <i>E</i> de un fotón se puede calcular como:<br>
+		E=m.c<sup>2</sup>, donde <i>c</i> es la velocidad de la luz.</p>
+		<p>Repellendus, rerum debitis. Aliquam tenetur omnis veniam soluta asperiores! Dignissimos facilis ullam expedita enim amet, <b>quibusdam reprehenderit</b>, beatae at aut modi tempora cumque corporis, dolor sit consequatur culpa eius iste!</p>
+		<!-- En cada sección he añadido dos enlaces para hacer scroll dentro del documento: uno para volver a la cabecera de la página y otro para ir al pié de página. Esto mejora la usabilidad ya que la persona puede navegar mejor por la página y acceder con mayor facilidad a cada contenido.-->
+		<p><a href="#cabecera">Ir a cabecera</a> | <a href="#pie_pagina">Ir a pie de página</a></p>
+	</section>
+	<section id="seccion2">	
+		<h2>Tecnologías más empleadas en la programación de páginas Web</h2>
+		<!-- Lista no numerada (con viñetas) -->
+		<ul>
+			<li>HTML</li>
+			<li>CSS</li>
+			<li>JavaScript</li>
+		</ul>
+		<!-- He generado varios párrafos con LoremIpsum -->
+		<p>Accusantium <i>qui quia molestiae</i> iusto ipsa, quo, saepe nulla reprehenderit alias voluptatem eum eveniet. Vero rem quibusdam placeat tenetur nisi eveniet at et quod, cum nulla odio, voluptate animi, praesentium.</p>
+		<p>Expedita sunt quas nemo nostrum <b>optio earum exercitationem voluptas eligendi </b>assumenda eum iusto non soluta numquam qui iste dolore corporis adipisci <i>inventore ad deleniti</i>, architecto beatae, minima, repudiandae. Maiores, blanditiis?</p>
+		<!-- Scroll dentro del documento-->
+		<p><a href="#cabecera">Ir a cabecera</a> | <a href="#pie_pagina">Ir a pie de página</a></p>
+	</section>
+	<section id="seccion3">
+		<h2>Accesibilidad: Niveles de conformidad</h2>
+<!-- 		Esta es una lista ordenada que utiliza los números romanos para la numeración de los ítems
+ -->		<ol type="i">
+			<li><b>Nivel de Conformidad "A":</b> todos los puntos de verificación de prioridad 1 se satisfacen.v</li>
+			<li><b>Nivel de Conformidad "Doble A":</b> todos los puntos de verificación de prioridad 1 y 2 se satisfacen.</li>
+			<li><b>Nivel de Conformidad "Triple A":</b> todos los puntos de verificación de prioridad 1,2 y 3 se satisfacen.</li>
+		</ol>
+		<!-- Scroll dentro del documento-->
+		<p><a href="#cabecera">Ir a cabecera</a> | <a href="#pie_pagina">Ir a pie de página</a></p>
+	</section>
+	<section id="seccion4">
+		<h2>Listado de inscritos</h2>
+		<!-- Definimos una tabla sencilla con una cabecera, tres columnas y 4 filas -->
+		<table>
+			<!-- Para mejorar la facilidad de acceso añado la etiqueta caption que da un título a la tabla -->
+			<caption>Listado de inscritos</caption>
+			<tr><!--Cabecera de la tabla -->
+				<th>Apellidos</th><th>Nombre</th><th>D.N.I.</th>
+			</tr>
+			<tr>
+				<td>González Pérez</td><td>Fulanito</td><td>00.000.001A</td>
+			</tr>
+			<tr>
+				<td>García García</td><td>Menganita</td><td>01.000.002B</td>
+			</tr>
+			<tr>
+				<td>Pérez López</td><td>Cipriano</td><td>01.000.003C</td>
+			</tr>
+			<tr>
+				<td>López López</td><td>Eusebia</td><td>01.000.004D</td>
+			</tr>
+		</table>
+		<!-- Scroll dentro del documento-->
+		<p><a href="#cabecera">Ir a cabecera</a> | <a href="#pie_pagina">Ir a pie de página</a></p>
+	</section>
+	<section id="seccion5">
+		<h2>Imágenes de cetaceos</h2>
+		<!-- Incluyo el atributo alt para mejorar la accesibilidad -->
+		<img src="images/cetaceos1.jpg" alt="ballena" >
+		<img src="images/cetaceos2.jpg" alt="ballena" >
+		<img src="images/cetaceos3.jpg" alt="defín de Irrawaddy">
+		<!-- Scroll dentro del documento-->
+		<p><a href="#cabecera">Ir a cabecera</a> | <a href="#pie_pagina">Ir a pie de página</a></p>
+	</section>
+	<section id="seccion6">
+		<h2>Mapa: turismo en el país vasco</h2>
+		<!-- incluimos la imagen de las provincias del País Vasco con un enlace desde cada una a su página de turismo  -->
+		<img src="images/mapa-euskadi.jpg" alt="mapa de euskadi" usemap="#map" />
+		<!-- Defino las áreas que se corresponden con cada provincia -->
+		<map name="map">
+    		<area shape="poly" coords="63, 106, 71, 113, 71, 142, 111, 162, 97, 171, 78, 176, 65, 165, 48, 161, 42, 182, 56, 200, 67, 187, 79, 184, 69, 203, 74, 221, 112, 233, 145, 267, 145, 279, 166, 265, 176, 271, 181, 293, 190, 305, 239, 302, 244, 285, 240, 268, 233, 274, 219, 263, 238, 248, 246, 257, 271, 250, 262, 224, 270, 222, 266, 208, 248, 214, 279, 190, 254, 162, 210, 161, 192, 151, 191, 138, 141, 137, 108, 119, 115, 94, 106, 83, 92, 96, 69, 95"  href="http://alavaturismo.eus/index.php/es/" target="_blank"/>
+    		<area shape="poly" coords="243, 46, 227, 76, 223, 114, 210, 121, 216, 138, 196, 142, 195, 150, 212, 157, 255, 157, 310, 161, 308, 131, 329, 128, 356, 101, 354, 77, 397, 46, 380, 19, 339, 40, 299, 53, 279, 47, 259, 52" href="http://webwpub1.gipuzkoa.net/WAS/CORP/DITPortalTurismoPublicoWEB/CambioIdioma.do?idioma=es" target="_blank"/>
+    		<area shape="poly" coords="26, 58, 70, 47, 69, 29, 122, 7, 156, 3, 239, 43, 221, 74, 217, 112, 186, 116, 188, 131, 145, 130, 110, 114, 120, 95, 107, 79, 94, 83, 84, 96, 52, 87, 46, 81, 9, 100, 1, 71" href="http://www.mybilbaobizkaia.eus/portada/" target="_blank" />
+		</map>
+		<!-- Scroll dentro del documento-->
+		<p><a href="#cabecera">Ir a cabecera</a> | <a href="#pie_pagina">Ir a pie de página</a></p>
+	</section>
+	<section id="seccion7">
+		<h2>Multimedia</h2>
+		<!-- INCLUIR AUDIOS EN HTML5 -->
+		<audio controls>
+			<source src="../multimedia/soaring_spirit.ogg">
+			<!-- MP3 está soportado por la mayoría de los navegadores -->
+			<source src="../multimedia/soaring_spirit.mp3">
+			<!-- La etiqueta object se utiliza para aquellos navegadores que no soportan la etiqueta audio de HTML5. De esta manera mejoramos la accesibilidad permitiendo que usuarios que disponen de navegadores antiguos puedan también escuchar el audio. -->
+			<object type="audio/mp3">
+				<param name="src" value="audio/soaring_spirit.mp3">
+				<param name="autoplay" value="false">
+				<param name="controller" value="true">
+				<embed src="../multimedia/soaring_spirit.mp3" autostart="false" loop="false" controller="true" >
+				<!-- En el caso de que no pueda reproducir el audio, da la opción de descargarlo -->
+				<a href="../multimedia/soaring_spirit.mp3" download>Su navegador no puede reproducir este audio. Pulsa aquí para descargar el audio.</a>
+			</object>
+		</audio>
+		<!-- PARA INCLUIR VÍDEOS -->
+		<video width="320" height="240" controls>
+			<source src="../multimedia/developer_stories.mp4" type="video/mp4">
+			<source src="../multimedia/developer_stories.ogv" type="video/ogg">
+			<!-- La etiqueta object se utiliza para aquellos navegadores que no soportan la etiqueta video de HTML5 -->
+			<object type="video/ogg" data="../multimedia/developer_stories.ogv" width="320" height="240">
+				<param name="src" value="video/developer_stories.ogv">
+				<param name="autoplay" value="false">
+				<param name="autoStart" value="0">
+				<!-- En el caso de que no pueda reproducir el vídeo, da la opción de descargarlo -->
+				<p><a href="../multimedia/developer_stories.mp4">Su navegador no puede reproducir este vídeo. Pulsa aquí para descargar el audio.</a></p>
+			</object>
+		</video>
+		<!-- Scroll dentro del documento: mejora la usabilidad-->
+		<p><a href="#cabecera">Ir a cabecera</a> | <a href="#pie_pagina">Ir a pie de página</a></p>
+	</section>
+	<!-- En la sección 8 ponemos un mapa de localización de GoogleMaps -->
+	<section id="seccion8">
+		<h2>Mapa de localización</h2>
+		<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2932.3731049702656!2d-2.918795684987248!3d42.69581997916576!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd4f904216dba469%3A0xbdbe69d04cbddb88!2sP%26S+Global+Miranda%2C+S.L.!5e0!3m2!1ses!2ses!4v1485177050427" width="400" height="300" style="border:0" allowfullscreen></iframe>
+		<!-- Scroll dentro del documento: mejora la usabilidad-->
+		<p><a href="#cabecera">Ir a cabecera</a> | <a href="#pie_pagina">Ir a pie de página</a></p>
+	</section>
+	<section id="seccion9">
+		<h2>Manual de Javascript</h2>
+		<p>En el siguiente enlace puedes descargarte un manual de JavaScript <a href="docs/Curso_Javascript.pdf" download>Descargar Manual</a>. </p> 
+		<!-- Le explico al usuario dónde descargarse el Adobe Acrobat Reader para mejorar la accesibilidad -->
+		<p><mark>Deberá disponer de <i>Adobe Acrobat Reader</i> u otro software de lectura de pdf para poder leer el documento.</mark> Puede descargarse la última versión de <i>Adobe Acrobat Reader</i> en el siguiente enlace <a href="https://get.adobe.com/es/reader/" target="_blank">Get Adobe Reader</a></p>
+		<!-- Scroll dentro del documento: mejora la usabilidad-->
+		<p><a href="#cabecera">Ir a cabecera</a> | <a href="#pie_pagina">Ir a pie de página</a></p>
+	</section>
+	<!-- La siguiente es la sección de Pie de Página. En ella he incluido una etiqueta address con mis datos para darle también contenido semántico y para que la información de contacto sea visible. Además le he añadido un estilo con CSS para que quede más visible. -->
+	<footer id="pie_pagina">
+		<br>
+		<address>
+			<!-- Añado un title con el correo electrónico para el caso de que el usuario no tenga instalado un cliente de correo electrónico. -->
+			Página creada por <a href="mailto:ma.martinez68@gmail.com" title="ma.martinez68@gmail.com">Marian Martínez</a>&nbsp; &nbsp;
+			<a href="https://es.linkedin.com/in/maria-antonia-mg" target="_blank"><img src="images/logoLinkedin.png" alt="Logo linkedIn"></a>
+			<a href="https://twitter.com/MmaRamotsa" target="_blank"><img src="images/logoTwit.png" alt="Logo twitter"></a>
+			&copy;.<br>
+		</address>
+	</footer>
+</html>

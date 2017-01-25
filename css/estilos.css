@@ -1,0 +1,17 @@
+/*Estilos definidos para la página*/
+table, th, td {
+    border: 1px solid blue;
+}
+footer{
+	background-color:#FF8B19;
+}
+/*Estilos para dar formato a los diferentes marcos*/
+.marco1{
+	background-color:#19FFBB;
+}
+.marco2{
+	background-color:#FFBB00;
+}
+.marco3{
+	background-color:#B314CC;
+}
